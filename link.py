@@ -168,5 +168,5 @@ if st.button("Get Answer"):
 
 # -------------------- Bonus Section: Agent Tools --------------------
 st.markdown("---")
-st.subheader("🧠 Bonus Tools ( Optional )")
+
 
