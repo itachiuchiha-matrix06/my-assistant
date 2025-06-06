@@ -1,5 +1,7 @@
-# Core Libraries
+# -------------------- Core Libraries --------------------
 streamlit
+
+# -------------------- LangChain Core & Integrations --------------------
 langchain
 langchain-core
 langchain-openai
@@ -9,16 +11,26 @@ langchain-community
 langchain-huggingface
 langchain-groq
 
-# LLM Providers
+# -------------------- LLM Providers --------------------
 openai
 google-generativeai
 
-# HuggingFace
+# -------------------- Embeddings --------------------
 transformers
 huggingface-hub
 
-# Utilities
+# -------------------- File Loaders --------------------
+pypdf          # For loading PDFs
+unstructured   # For loading DOCX and other unstructured docs
+docx2txt       # Sometimes needed as a backend by Unstructured loaders
+
+# -------------------- Vector Store --------------------
+faiss-cpu      # For FAISS vector database
+
+# -------------------- Utils --------------------
 python-dotenv
 numpy
 scikit-learn
-pypdf
+
+# -------------------- Optional Safety --------------------
+tqdm            # For loading bars, used in LangChain sometimes
